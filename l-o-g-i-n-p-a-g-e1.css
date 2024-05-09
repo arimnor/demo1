@@ -1,0 +1,132 @@
+.sign-up-rec6 {
+  position: absolute;
+  top: 435px;
+  left: 506px;
+  border-radius: var(--br-16xl);
+  width: 399px;
+  height: 85px;
+  mix-blend-mode: darken;
+}
+.main-rec-icon6 {
+  position: absolute;
+  height: calc(100% - 229px);
+  width: calc(100% - 798px);
+  top: 221px;
+  right: 423px;
+  bottom: 8px;
+  left: 375px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.2;
+  mix-blend-mode: linear-dodge;
+}
+.logo12,
+.upper-section9 {
+  position: absolute;
+  left: 0;
+  mix-blend-mode: linear-burn;
+}
+.logo12 {
+  top: 19px;
+  line-height: 10px;
+  font-family: var(--font-holtwood-one-sc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 353px;
+  height: 104px;
+}
+.upper-section9 {
+  top: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 1440px;
+  height: 137px;
+}
+.login-page-3-child {
+  position: absolute;
+  top: 503px;
+  left: 705px;
+  width: 15px;
+  height: 9px;
+  overflow: hidden;
+}
+.sign-in7 {
+  position: absolute;
+  top: 153px;
+  left: 397px;
+  font-size: var(--font-size-17xl);
+  line-height: 10px;
+  color: var(--color-cadetblue-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 279px;
+  height: 60px;
+}
+.login-rec-icon14,
+.login-rec-icon15 {
+  position: absolute;
+  top: 137px;
+  left: calc(50% - 348px);
+  width: 645px;
+  height: 85px;
+  mix-blend-mode: multiply;
+}
+.login-rec-icon15 {
+  top: 619px;
+  left: calc(50% - 304px);
+  border-radius: var(--br-11xl);
+  width: 542px;
+  cursor: pointer;
+}
+.one-time-code,
+.sign-in8 {
+  position: absolute;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-in8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 632px;
+  left: 585px;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-homenaje);
+  color: var(--color-cadetblue-300);
+  text-align: center;
+  width: 183px;
+  height: 60px;
+}
+.one-time-code {
+  top: 347px;
+  left: 375px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  width: 373px;
+  height: 63px;
+}
+.login-page-3-item {
+  position: absolute;
+  top: 456px;
+  left: 479px;
+  width: 416px;
+  height: 75px;
+}
+.login-page-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightcyan);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-cadetblue-100);
+  font-family: var(--font-homenaje);
+}

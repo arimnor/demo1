@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./l-o-g-i-n-p-a-g-e-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Homenaje:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Holtwood One SC:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-page-1" data-animate-on-scroll>
+      <img class="sign-up-rec7" alt="" />
+
+      <div class="login-rec25"></div>
+      <img class="main-rec-icon7" alt="" src="./public/main-rec2.svg" />
+
+      <div class="logo14">LOGO</div>
+      <div class="upper-section11"></div>
+      <div class="login-page-1-child"></div>
+      <div class="sign-in9">SIGN IN</div>
+      <img
+        class="login-rec-icon19"
+        alt=""
+        src="./public/login-rec4.svg"
+        id="lOGINREC1"
+        data-animate-on-scroll
+      />
+
+      <img
+        class="login-rec-icon20"
+        alt=""
+        src="./public/login-rec.svg"
+        id="lOGINREC2"
+      />
+
+      <div class="login17">LOGIN</div>
+      <button class="login18" autofocus="{true}" id="login">LOGIN</button>
+      <div class="email6">Email</div>
+      <img class="login-page-1-item" alt="" src="./public/rectangle-2.svg" />
+
+      <div class="login-page-1-inner"></div>
+      <div class="password6">Password</div>
+      <div class="remember-me12">
+        <span class="remember-me-txt-container6">
+          <p class="remember-me13">Remember me?</p>
+        </span>
+      </div>
+      <div class="forget-password5">Forget password?</div>
+    </div>
+
+    <script>
+      var lOGINREC1 = document.getElementById("lOGINREC1");
+      if (lOGINREC1) {
+        lOGINREC1.addEventListener("click", function (e) {
+          window.location.href = "./l-o-g-i-n-p-a-g-e-2.html";
+        });
+      }
+      
+      var lOGINREC2 = document.getElementById("lOGINREC2");
+      if (lOGINREC2) {
+        lOGINREC2.addEventListener("click", function (e) {
+          window.location.href = "./m-a-i-n-p-a-g-e1.html";
+        });
+      }
+      
+      var lOGIN = document.getElementById("login");
+      if (lOGIN) {
+        lOGIN.addEventListener("click", function (e) {
+          window.location.href = "./m-a-i-n-p-a-g-e1.html";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

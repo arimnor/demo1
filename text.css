@@ -1,0 +1,15 @@
+.blank-line1 {
+  margin: 0;
+}
+.text1 {
+  width: 740px;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 10px;
+  font-family: var(--font-homenaje);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 252px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Homenaje:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Holtwood One SC:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <header class="welcome">
+      <button class="login-rec" autofocus="{true}" id="login"></button>
+      <div class="login" id="lOGINText">LOGIN</div>
+      <div class="welcome-child"></div>
+      <div class="logo">LOGO</div>
+      <div class="upper-section"></div>
+      <div class="welcome1">WELCOME</div>
+      <button class="login-rec1" autofocus="{true}" id="sign up"></button>
+      <div class="sign-up" id="sIGNUPText">SIGN UP</div>
+    </header>
+
+    <script>
+      var lOGINREC = document.getElementById("login");
+      if (lOGINREC) {
+        lOGINREC.addEventListener("click", function (e) {
+          window.location.href = "./l-o-g-i-n-p-a-g-e-1.html";
+        });
+      }
+      
+      var lOGINText = document.getElementById("lOGINText");
+      if (lOGINText) {
+        lOGINText.addEventListener("click", function (e) {
+          window.location.href = "./l-o-g-i-n-p-a-g-e-1.html";
+        });
+      }
+      
+      var lOGINREC1 = document.getElementById("sign up");
+      if (lOGINREC1) {
+        lOGINREC1.addEventListener("click", function (e) {
+          window.location.href = "./l-o-g-i-n-p-a-g-e-2.html";
+        });
+      }
+      
+      var sIGNUPText = document.getElementById("sIGNUPText");
+      if (sIGNUPText) {
+        sIGNUPText.addEventListener("click", function (e) {
+          window.location.href = "./l-o-g-i-n-p-a-g-e-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

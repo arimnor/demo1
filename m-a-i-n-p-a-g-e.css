@@ -1,0 +1,127 @@
+.main-page-child {
+  position: absolute;
+  top: 28px;
+  left: 24px;
+  backdrop-filter: blur(4px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 335px;
+  height: 80px;
+  display: none;
+  mix-blend-mode: linear-dodge;
+}
+.logo5,
+.upper-section5 {
+  position: absolute;
+  mix-blend-mode: linear-burn;
+}
+.logo5 {
+  top: 17px;
+  left: -57px;
+  font-size: var(--font-size-45xl);
+  line-height: 10px;
+  font-family: var(--font-holtwood-one-sc);
+  color: var(--color-cadetblue-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 353px;
+  height: 104px;
+}
+.upper-section5 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 1440px;
+  height: 137px;
+}
+.main-page-inner,
+.main-page-item {
+  position: absolute;
+  top: 447px;
+  left: 0;
+  width: 1440px;
+  height: 229px;
+}
+.main-page-inner {
+  top: 713px;
+}
+.edvertisement1 {
+  margin: 0;
+}
+.edvertisement-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.edvertisement {
+  position: absolute;
+  top: 234px;
+  left: 328px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  width: 740px;
+  height: 252px;
+}
+.login-rec-icon4,
+.login-rec-icon5 {
+  position: absolute;
+  top: 137px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 57px;
+  mix-blend-mode: multiply;
+}
+.login-rec-icon5 {
+  top: 606px;
+  height: 236px;
+  mix-blend-mode: color-burn;
+}
+.main-page-child1 {
+  position: absolute;
+  top: 194px;
+  left: 0;
+  width: 1440px;
+  height: 232px;
+}
+.bz-takp-edn,
+.hakkimizda-blog,
+.ok-sevlen-dersler {
+  position: absolute;
+  top: 195px;
+  left: 328px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 740px;
+  height: 252px;
+}
+.bz-takp-edn,
+.hakkimizda-blog {
+  top: 487px;
+  left: 326px;
+  width: 699px;
+  height: 150px;
+}
+.bz-takp-edn {
+  top: 769px;
+  left: 336px;
+  width: 678px;
+  height: 146px;
+}
+.main-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightcyan);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-homenaje);
+}

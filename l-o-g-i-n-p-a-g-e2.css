@@ -1,0 +1,212 @@
+.login-rec10,
+.sign-up-rec2 {
+  position: absolute;
+  mix-blend-mode: darken;
+}
+.sign-up-rec2 {
+  top: 435px;
+  left: 506px;
+  border-radius: var(--br-16xl);
+  width: 399px;
+  height: 85px;
+}
+.login-rec10 {
+  top: 158px;
+  left: 375px;
+  background-color: var(--color-powderblue);
+  width: 642px;
+  height: 92px;
+}
+.main-rec-icon2 {
+  position: absolute;
+  height: calc(100% - 240px);
+  width: calc(100% - 798px);
+  top: 240px;
+  right: 423px;
+  bottom: 0;
+  left: 375px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.2;
+  mix-blend-mode: linear-dodge;
+}
+.login7 {
+  position: absolute;
+  top: 43px;
+  left: 1187px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+  height: 60px;
+}
+.login-rec11 {
+  position: absolute;
+  top: 38px;
+  left: calc(50% + 498px);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gainsboro-100);
+  width: 177px;
+  height: 67px;
+  mix-blend-mode: multiply;
+}
+.logo3,
+.upper-section3 {
+  position: absolute;
+  left: 0;
+  mix-blend-mode: linear-burn;
+}
+.logo3 {
+  top: 19px;
+  font-size: var(--font-size-45xl);
+  line-height: 10px;
+  font-family: var(--font-holtwood-one-sc);
+  color: var(--color-cadetblue-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 353px;
+  height: 104px;
+}
+.upper-section3 {
+  top: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 1440px;
+  height: 137px;
+}
+.login-page-child1 {
+  position: absolute;
+  top: 503px;
+  left: 705px;
+  width: 15px;
+  height: 9px;
+  overflow: hidden;
+}
+.sign-in2 {
+  position: absolute;
+  top: 167px;
+  left: 571px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 279px;
+  height: 60px;
+}
+.login-rec-icon2,
+.login-rec12 {
+  position: absolute;
+  height: 85px;
+  mix-blend-mode: multiply;
+}
+.login-rec12 {
+  top: 155px;
+  left: calc(50% - 348px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0 var(--br-31xl) var(--br-31xl) 0;
+  background-color: var(--color-gainsboro-100);
+  width: 269px;
+}
+.login-rec-icon2 {
+  top: 745px;
+  left: calc(50% - 286px);
+  border-radius: var(--br-11xl);
+  width: 542px;
+}
+.email2,
+.login8,
+.login9 {
+  position: absolute;
+  top: 167px;
+  left: 383px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 183px;
+  height: 60px;
+}
+.email2,
+.login9 {
+  top: 757px;
+  left: 607px;
+  font-size: var(--font-size-31xl);
+}
+.email2 {
+  top: 271px;
+  left: 372px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  width: 164px;
+  height: 63px;
+}
+.login-page-child2,
+.login-page-child3 {
+  position: absolute;
+  top: 334px;
+  left: 383px;
+  border-radius: var(--br-xl);
+  width: 631px;
+  height: 75px;
+}
+.login-page-child3 {
+  top: 532px;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+}
+.password2 {
+  position: absolute;
+  top: 442px;
+  left: 375px;
+  font-size: var(--font-size-21xl);
+  line-height: 10px;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 161px;
+  height: 71px;
+}
+.remember-me5 {
+  margin: 0;
+}
+.remember-me-txt-container2 {
+  width: 100%;
+}
+.forget-password2,
+.remember-me4 {
+  position: absolute;
+  top: 649px;
+  left: 462px;
+  font-size: var(--font-size-21xl);
+  line-height: 10px;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  width: 227px;
+  height: 39px;
+}
+.forget-password2 {
+  top: 861px;
+  left: 763px;
+  font-size: var(--font-size-11xl);
+  justify-content: center;
+  width: 240px;
+  height: 52px;
+}
+.login-page2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightcyan);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-cadetblue-300);
+  font-family: var(--font-homenaje);
+}
